@@ -3,6 +3,10 @@ body{
     user-select: none;
     color: #fff;
 }
+.desktop-only,
+.mobile-only {
+    display: none;
+}
 .titulo{
     text-align: center;
     margin-bottom: 4rem;
@@ -39,4 +43,19 @@ div3{
 .video img{
     border: solid lime 5px;
     border-radius: 20px;
+}
+/*DISPOSITIBO MOVIL---------------------------------------------------------------------------------------------------------------------*/
+.mobile-only {
+    body{
+        font-size: 100%;
+    }
+    .contenido{
+        font-size: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    div2{
+        font-size: 100%;
+    }
 }
