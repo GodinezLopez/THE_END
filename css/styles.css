@@ -36,7 +36,8 @@ div3{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.video video{
+.video iframe{
+    width: 40%;
     border-radius: 20px;
     border: solid;
 }
@@ -49,11 +50,22 @@ div3{
     body{
         font-size: 100%;
     }
+    .titulo{
+        width: 100%;
+    }
+    .titulo img{
+        width: 100%;
+    }
     .contenido{
         font-size: 100%;
     }
     .video{
         width: 100%;
+    }
+    .video iframe{
+        width: 100%;
+        border-radius: 20px;
+        border: solid;
     }
     div2{
         font-size: 100%;
