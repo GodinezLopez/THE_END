@@ -37,9 +37,23 @@ div3{
     margin-bottom: 1rem;
 }
 .video iframe{
-    width: 40%;
+    width: 50%;
+    height: 500px;
     border-radius: 20px;
-    border: solid;
+    border: solid #51ff00;
+    transition: 0.3s;
+}
+.video iframe:hover{
+    transform: scale(0.90);
+}
+.video .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
 }
 .video img{
     border: solid lime 5px;
@@ -49,6 +63,9 @@ div3{
 .mobile-only {
     body{
         font-size: 100%;
+    }
+    a{
+        font-size: 90%;
     }
     .titulo{
         width: 100%;
@@ -64,6 +81,7 @@ div3{
     }
     .video iframe{
         width: 100%;
+        height: 250px;
         border-radius: 20px;
         border: solid;
     }
